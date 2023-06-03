@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="css/cadastro.css" rel="stylesheet" />
+    <meta name="description" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Monteserrat:500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a class="logo" href="index.html"><img src="imagem/logo5.png" /></a>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="#">Dicas</a></li>
+          <li><a href="#">Funcionalidades</a></li>
+          <li><a href="#">Cadastro</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#">Acesso</a>
+      <p class="menu cta">Menu</p>
+      <div class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay_content">
+          <a href="#">Dicas</a>
+          <a href="#">Funcionalidades</a>
+          <a href="#">Cadastro</a>
+          <a href="#">Acesso</a>
+        </div>
+      </div>
+    </header>
+    <h2 style="color: white;">Realize seu cadastro</h2>
+    <div class="divForm">
+      <form action="post" class="formPost">
+        <div class="inputDiv">
+          <label for="nome" style="font-weight: bold">Nome</label><br />
+          <input id="nome" type="text" style="width: 80%" maxlength="150" />
+        </div>
+
+        <div class="inputDiv">
+          <label for="aniversario" style="font-weight: bold"
+            >Data de Aniversarío</label
+          ><br />
+          <input id="aniversario" type="date" style="width: 80%" />
+        </div>
+
+        <div class="inputDiv">
+          <label for="email" style="font-weight: bold">E-mail</label><br />
+          <input
+            id="email"
+            etype="email"
+            style="width: 80%"
+            placeholder="Digite seu melhor e-mail"
+          />
+        </div>
+
+        <div class="inputDiv">
+          <label for="senha" style="font-weight: bold">Senha</label><br />
+          <input id="senha" type="password" style="width: 80%" />
+        </div>
+
+        <div class="inputDiv">
+          <label for="senha" style="font-weight: bold">Nº de telefone</label><br />
+          <input id="senha" type="tel" style="width: 80%" />
+        </div>
+
+        <div class="inputDiv">
+          <label for="senha" style="font-weight: bold">Nome da Empresa</label><br />
+          <input id="senha" type="text" style="width: 80%" />
+        </div>
+
+        <div class="inputDiv">
+          <label for="senha" style="font-weight: bold">Ramo</label><br />
+          <input id="senha" type="password" style="width: 80%" />
+        </div>
+
+        <div class="buttonEnviar">
+          <input type="submit" style="font-weight: bold;font-size: 14px;" value="Enviar" id="enviar">
+          </diviarv>
+      </form>
+    </div>
+  </body>
+</html>
